@@ -1,4 +1,7 @@
-## 一、運作說明：
+## 簡介：
+爬取[台灣事實查核中心](https://tfc-taiwan.org.tw/)的[查核報告](https://tfc-taiwan.org.tw/articles/report)
+
+## 運作說明：
 <hr>
 
 - 函式：只有FactCheck(pages)一個函數,其中pages為要爬取的頁數
