@@ -16,7 +16,7 @@ def FactCheck(pages:int) -> pd.DataFrame():
     '''
     try:
         MainCategory,SubCategory,Titles,Dates=[],[],[],[]
-        for page in range(pages-1):
+        for page in range(pages):
             url = f'https://tfc-taiwan.org.tw/articles/report?page={page}'
             r = requests.get(url)
             count = 1
